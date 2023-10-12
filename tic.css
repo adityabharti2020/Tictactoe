@@ -1,0 +1,117 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	display: flex;
+	font-family: arial,helvetica;
+	margin: 0;
+	padding: 0;
+	justify-content: center;
+
+}
+h2{ 
+	margin-top: 10px;
+	margin-left: 75px;
+	width: 250px;
+	background: white;
+	border-radius: 5px;
+}
+p{
+	margin-top: -15px;
+	color: white;
+}
+b{
+	color: #000;
+}
+.container{
+	background: goldenrod;
+	width: 400px;
+	height: 470px;
+	text-align: center;
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	
+}
+.main{
+	background: #000;
+	width: 350px;
+	height: 350px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 25px;
+	margin-top: 0px;
+
+
+}
+.section{
+	display: flex;
+	margin: 0 auto;
+
+
+}
+.cell{
+	display: flex;
+	width: 105px;
+	height: 105px;
+	border: none;
+	cursor: pointer;
+	align-items: center;
+	justify-content: center;
+	font-size: 50px;
+	text-align: center;
+
+
+}
+input[type = "text"]{
+	display: flex;
+
+}
+#button{
+	background-color: red;
+	width: 100px;
+	height: 30px;
+	cursor: pointer;
+}
+#b1{
+	border-bottom: 1px solid black;
+	
+}
+#b2{
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+
+}
+#b3{
+	border-bottom: 1px solid black;
+}
+#b4{
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+}
+#b5{
+	border-bottom: 1px solid black;
+}
+#b6{
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+}
+#b7{
+	border-bottom: 1px solid black;
+}
+#b8{
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+}
+#b9{
+	border-bottom: 1px solid black;
+}
+#message{
+	color: red;
+	font-size: 25px;
+}
